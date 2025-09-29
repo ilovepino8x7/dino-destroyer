@@ -9,6 +9,9 @@ My game for the Summer of Making - Dino Destroyer is a game where you, Denny, ar
 ## How to play:
   Use A & D to move left and right and Space to jump. Land on the Dinos' heads to beat them, but make sure they don't touch you first or you will hear them cackle and you will lose a point. Press 'R' to reset if you get stuck, and remember, watch out for the Red Dino of DOOOOM, which moves at high speed and takes away more points than the regular green variety, but also gifts much more if you successfully beat it.
 
+### Live Link:
+  https://ilovepino56.itch.io/dino-destroyer
+
 ## Credits:
   ChatGPT for teaching me enough C# and fixing the more advanced problems with sound effects
   used clap effect https://pixabay.com/sound-effects/light-hand-clap-82510/
