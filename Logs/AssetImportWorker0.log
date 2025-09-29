@@ -1,0 +1,979 @@
+Unity Editor version:    6000.0.46f1 (fb93bc360d3a)
+Branch:                  6000.0/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.7.7 (Build 22H722)
+Darwin version:          22.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/Tedski/Downloads/rpg
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58602
+-job-worker-count
+1
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /Users/Tedski/Downloads/rpg
+/Users/Tedski/Downloads/rpg
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704659933696]  Target information:
+
+Player connection [140704659933696]  * "[IP] 192.168.0.48 [Port] 0 [Flags] 2 [Guid] 2467095335 [EditorId] 2467095335 [Version] 1048832 [Id] OSXEditor(0,Alexs-iMac-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [140704659933696] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704659933696] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 1
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 296.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.46f1 (fb93bc360d3a)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/Tedski/Downloads/rpg/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+iMac preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56287
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.050909 seconds.
+- Loaded All Assemblies, in  2.274 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.296 seconds
+Domain Reload Profiling: 3569ms
+	BeginReloadAssembly (744ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (123ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (178ms)
+	LoadAllAssembliesAndSetupDomain (1188ms)
+		LoadAssemblies (792ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1131ms)
+			TypeCache.Refresh (1126ms)
+				TypeCache.ScanAssembly (1077ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1297ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1144ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (126ms)
+			SetLoadedEditorAssemblies (21ms)
+			BeforeProcessingInitializeOnLoad (227ms)
+			ProcessInitializeOnLoadAttributes (543ms)
+			ProcessInitializeOnLoadMethodAttributes (226ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.166 seconds
+Refreshing native plugins compatible for Editor in 9.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+<WakaTime> Initializing...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:Initialize () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:60)
+WakaTime.Plugin:.cctor () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 60)
+
+<WakaTime> Sending heartbeat...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:SendHeartbeat (bool) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:128)
+WakaTime.Plugin:Initialize () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:62)
+WakaTime.Plugin:.cctor () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 128)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.262 seconds
+Domain Reload Profiling: 6482ms
+	BeginReloadAssembly (367ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (101ms)
+	RebuildCommonClasses (126ms)
+	RebuildNativeTypeToScriptingClass (57ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (2559ms)
+		LoadAssemblies (1692ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (983ms)
+			TypeCache.Refresh (867ms)
+				TypeCache.ScanAssembly (819ms)
+			BuildScriptInfoCaches (79ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (3263ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2584ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (389ms)
+			ProcessInitializeOnLoadAttributes (1403ms)
+			ProcessInitializeOnLoadMethodAttributes (746ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.18 seconds
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
+<WakaTime> Got response
+{"id":348203623,"user_id":11507,"branch":"master","category":"coding","dependencies":[],"editor":"","entity":"Unsaved Scene","language":"unity","machine":null,"operating_system":"","project":"Dino Destroyer","type":"file","user_agent":"unity-wakatime","line_additions":null,"line_deletions":null,"lineno":null,"lines":null,"cursorpos":null,"project_root_count":null,"time":1759085696.0,"is_write":false,"created_at":"2025-09-28T18:54:30.766Z","updated_at":"2025-09-28T18:54:30.769Z","fields_hash":"36a7c328fda10bfefdf66bfa8edcd07a","source_type":"direct_entry","ip_address":"81.97.26.125","ysws_program":"nothing","deleted_at":null,"raw_data":{"user_id":11507,"branch":"master","category":"coding","dependencies":[],"editor":"","entity":"Unsaved Scene","language":"unity","machine":null,"operating_system":"","project":"Dino Destroyer","type":"file","user_agent":"unity-wakatime","line_additions":null,"line_deletions":null,"lineno":null,"lines":null,"cursorpos":null,"project_root_count":null,"time":1759085696.0,"is_write":false},"raw_heartbeat_upload_id":49936917}
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:157)
+UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs:24)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 157)
+
+<WakaTime> Sent heartbeat!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:173)
+UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs:24)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 173)
+
+Unloading 6617 unused Assets / (2.7 MB). Loaded Objects now: 7329.
+Memory consumption went from 167.5 MB to 164.8 MB.
+Total: 23.339883 ms (FindLiveObjects: 2.326992 ms CreateObjectMapping: 1.413820 ms MarkObjects: 13.966993 ms  DeleteObjects: 5.630655 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 130386.239106 seconds.
+  path: Assets/superDino.prefab
+  artifactKey: Guid(e2c90fdcc35c6479c832623e959a4fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/superDino.prefab using Guid(e2c90fdcc35c6479c832623e959a4fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '062b2b1e031e721ed1f27fca998bf195') in 2.202324738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000797 seconds.
+  path: Assets/power-of-action-177292.mp3
+  artifactKey: Guid(f88c4f4ddd5d8426787c51445953c56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/power-of-action-177292.mp3 using Guid(f88c4f4ddd5d8426787c51445953c56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4192eb8ec09c75f04432509a1fd1b253') in 0.372780877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010482 seconds.
+  path: Assets/Dino-Destroyer-28-09-2025.png
+  artifactKey: Guid(f9974c3a44aab43f4bae2182bd82e8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dino-Destroyer-28-09-2025.png using Guid(f9974c3a44aab43f4bae2182bd82e8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f899a90bb3ff5f23813b75bc7e9fc3db') in 0.087963849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/FullDino.prefab
+  artifactKey: Guid(93d6f66b0cb944c7bad51c7bad77a592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FullDino.prefab using Guid(93d6f66b0cb944c7bad51c7bad77a592) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd389444428aa1b229942060a1b651e44') in 0.040692279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/dinoDie.mp3
+  artifactKey: Guid(edcec260ee5c0447f9c20102bccc5905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dinoDie.mp3 using Guid(edcec260ee5c0447f9c20102bccc5905) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f8b11f0475f8a1727fd08cacf0cfbf5') in 0.007653265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Crusher.png
+  artifactKey: Guid(6865df59a52ab498ea852588cb6e4e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crusher.png using Guid(6865df59a52ab498ea852588cb6e4e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68cb007084aad0161e9cbf809d8ae08f') in 0.080818955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/soldier-soldier-warrior-fighting-music-261172.mp3
+  artifactKey: Guid(25d0104d5a5cd4c96ac035e09912fd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier-soldier-warrior-fighting-music-261172.mp3 using Guid(25d0104d5a5cd4c96ac035e09912fd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd87c8f53d894e5c7fe4e66c6c378dc52') in 0.022455089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/DinoSkinleft.png
+  artifactKey: Guid(a9e5a296737954c6bbb392ea97a6cefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DinoSkinleft.png using Guid(a9e5a296737954c6bbb392ea97a6cefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99f4119202e811dfb0227b808fd12795') in 0.066589763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/superDinoSkin.png
+  artifactKey: Guid(9ebf541858e074bafa9dff8a6c75439f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/superDinoSkin.png using Guid(9ebf541858e074bafa9dff8a6c75439f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5df7cf327348d014ccf78108409b356e') in 0.026167308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/beamSkin.png
+  artifactKey: Guid(0adbfea19940342cb8c6bf00933f6b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/beamSkin.png using Guid(0adbfea19940342cb8c6bf00933f6b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f016f565660e42e42fb00ac6d0416912') in 0.015423088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/sad-documentary-music-background-384728.mp3
+  artifactKey: Guid(2db7c6e4e5b0a41649b58552b5c561ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sad-documentary-music-background-384728.mp3 using Guid(2db7c6e4e5b0a41649b58552b5c561ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be9f54a516407dc4b82c09dcdce55e30') in 0.015125881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/dinoEscape.mp3
+  artifactKey: Guid(f862b6ab9a48a412fa2d9c36d8e7dc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dinoEscape.mp3 using Guid(f862b6ab9a48a412fa2d9c36d8e7dc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd815545f5f5bc63c1520e99a8afd458') in 0.012056024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.650 seconds
+Refreshing native plugins compatible for Editor in 5.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+<WakaTime> Initializing...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:Initialize () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:60)
+WakaTime.Plugin:.cctor () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 60)
+
+<WakaTime> Sending heartbeat...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:SendHeartbeat (bool) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:128)
+WakaTime.Plugin:Initialize () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:62)
+WakaTime.Plugin:.cctor () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 128)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.354 seconds
+Domain Reload Profiling: 3007ms
+	BeginReloadAssembly (433ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (50ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (186ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (1062ms)
+		LoadAssemblies (627ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (562ms)
+			TypeCache.Refresh (325ms)
+				TypeCache.ScanAssembly (304ms)
+			BuildScriptInfoCaches (204ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (1354ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1020ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (215ms)
+			ProcessInitializeOnLoadAttributes (679ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+<WakaTime> Got response
+{"id":348205852,"user_id":11507,"branch":"master","category":"coding","dependencies":[],"editor":"","entity":"Unsaved Scene","language":"unity","machine":null,"operating_system":"","project":"Dino Destroyer","type":"file","user_agent":"unity-wakatime","line_additions":null,"line_deletions":null,"lineno":null,"lines":null,"cursorpos":null,"project_root_count":null,"time":1759085824.0,"is_write":false,"created_at":"2025-09-28T18:56:23.579Z","updated_at":"2025-09-28T18:56:23.582Z","fields_hash":"593592a0b15e3136beb01639221f4388","source_type":"direct_entry","ip_address":"81.97.26.125","ysws_program":"nothing","deleted_at":null,"raw_data":{"user_id":11507,"branch":"master","category":"coding","dependencies":[],"editor":"","entity":"Unsaved Scene","language":"unity","machine":null,"operating_system":"","project":"Dino Destroyer","type":"file","user_agent":"unity-wakatime","line_additions":null,"line_deletions":null,"lineno":null,"lines":null,"cursorpos":null,"project_root_count":null,"time":1759085824.0,"is_write":false},"raw_heartbeat_upload_id":49937401}
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:157)
+UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs:24)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 157)
+
+<WakaTime> Sent heartbeat!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:173)
+UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs:24)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 173)
+
+Unloading 6615 unused Assets / (4.9 MB). Loaded Objects now: 7379.
+Memory consumption went from 146.1 MB to 141.1 MB.
+Total: 13.205936 ms (FindLiveObjects: 0.839777 ms CreateObjectMapping: 1.319900 ms MarkObjects: 7.671286 ms  DeleteObjects: 3.373890 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2002.596474 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '662ca22e14c8daba2c60dd5d1bf3c378') in 0.061371062 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.514 seconds
+Refreshing native plugins compatible for Editor in 218.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+<WakaTime> Initializing...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:Initialize () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:60)
+WakaTime.Plugin:.cctor () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 60)
+
+<WakaTime> Sending heartbeat...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:SendHeartbeat (bool) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:128)
+WakaTime.Plugin:Initialize () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:62)
+WakaTime.Plugin:.cctor () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 128)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.518 seconds
+Domain Reload Profiling: 9056ms
+	BeginReloadAssembly (2160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (44ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (246ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (5241ms)
+		LoadAssemblies (6571ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (437ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (395ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1518ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (975ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (692ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+<WakaTime> Got response
+{"id":350410496,"user_id":11507,"branch":"master","category":"coding","dependencies":[],"editor":"","entity":"Unsaved Scene","language":"unity","machine":null,"operating_system":"","project":"Dino Destroyer","type":"file","user_agent":"unity-wakatime","line_additions":null,"line_deletions":null,"lineno":null,"lines":null,"cursorpos":null,"project_root_count":null,"time":1759130368.0,"is_write":false,"created_at":"2025-09-29T07:19:44.064Z","updated_at":"2025-09-29T07:19:44.067Z","fields_hash":"f82c7ea88c9657c565008f1ac312741b","source_type":"direct_entry","ip_address":"81.97.26.125","ysws_program":"nothing","deleted_at":null,"raw_data":{"user_id":11507,"branch":"master","category":"coding","dependencies":[],"editor":"","entity":"Unsaved Scene","language":"unity","machine":null,"operating_system":"","project":"Dino Destroyer","type":"file","user_agent":"unity-wakatime","line_additions":null,"line_deletions":null,"lineno":null,"lines":null,"cursorpos":null,"project_root_count":null,"time":1759130368.0,"is_write":false},"raw_heartbeat_upload_id":50158888}
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:157)
+UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs:24)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 157)
+
+<WakaTime> Sent heartbeat!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:173)
+UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs:24)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 173)
+
+Unloading 6615 unused Assets / (5.0 MB). Loaded Objects now: 7381.
+Memory consumption went from 145.8 MB to 140.7 MB.
+Total: 12.683866 ms (FindLiveObjects: 0.821398 ms CreateObjectMapping: 1.329264 ms MarkObjects: 7.170977 ms  DeleteObjects: 3.361004 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 21.231 seconds
+Refreshing native plugins compatible for Editor in 137.46 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+<WakaTime> Initializing...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:Initialize () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:60)
+WakaTime.Plugin:.cctor () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 60)
+
+<WakaTime> Sending heartbeat...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:SendHeartbeat (bool) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:128)
+WakaTime.Plugin:Initialize () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:62)
+WakaTime.Plugin:.cctor () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 128)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.148 seconds
+Domain Reload Profiling: 23406ms
+	BeginReloadAssembly (7436ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (109ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (369ms)
+	RebuildCommonClasses (108ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (570ms)
+	LoadAllAssembliesAndSetupDomain (13107ms)
+		LoadAssemblies (18989ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (882ms)
+			TypeCache.Refresh (32ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (763ms)
+			ResolveRequiredComponents (70ms)
+	FinalizeReload (2149ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1522ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (162ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (256ms)
+			ProcessInitializeOnLoadAttributes (940ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+<WakaTime> Got response
+{"id":350414169,"user_id":11507,"branch":"master","category":"coding","dependencies":[],"editor":"","entity":"Unsaved Scene","language":"unity","machine":null,"operating_system":"","project":"Dino Destroyer","type":"file","user_agent":"unity-wakatime","line_additions":null,"line_deletions":null,"lineno":null,"lines":null,"cursorpos":null,"project_root_count":null,"time":1759130880.0,"is_write":false,"created_at":"2025-09-29T07:27:03.693Z","updated_at":"2025-09-29T07:27:03.697Z","fields_hash":"6a611bee1f1ee673f8f03b78ccd5bd22","source_type":"direct_entry","ip_address":"81.97.26.125","ysws_program":"nothing","deleted_at":null,"raw_data":{"user_id":11507,"branch":"master","category":"coding","dependencies":[],"editor":"","entity":"Unsaved Scene","language":"unity","machine":null,"operating_system":"","project":"Dino Destroyer","type":"file","user_agent":"unity-wakatime","line_additions":null,"line_deletions":null,"lineno":null,"lines":null,"cursorpos":null,"project_root_count":null,"time":1759130880.0,"is_write":false},"raw_heartbeat_upload_id":50160096}
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:157)
+UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs:24)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 157)
+
+<WakaTime> Sent heartbeat!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:173)
+UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs:24)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 173)
+
+Unloading 6615 unused Assets / (5.0 MB). Loaded Objects now: 7383.
+Memory consumption went from 145.7 MB to 140.7 MB.
+Total: 19.147717 ms (FindLiveObjects: 2.078837 ms CreateObjectMapping: 1.728902 ms MarkObjects: 9.934217 ms  DeleteObjects: 5.403380 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  9.653 seconds
+Refreshing native plugins compatible for Editor in 123.14 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+<WakaTime> Initializing...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:Initialize () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:60)
+WakaTime.Plugin:.cctor () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 60)
+
+<WakaTime> Sending heartbeat...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:SendHeartbeat (bool) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:128)
+WakaTime.Plugin:Initialize () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:62)
+WakaTime.Plugin:.cctor () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 128)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.655 seconds
+Domain Reload Profiling: 12311ms
+	BeginReloadAssembly (3553ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (237ms)
+	RebuildCommonClasses (97ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (5909ms)
+		LoadAssemblies (8520ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (591ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (531ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (2656ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2073ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (270ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (392ms)
+			ProcessInitializeOnLoadAttributes (1213ms)
+			ProcessInitializeOnLoadMethodAttributes (182ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (47ms)
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+<WakaTime> Got response
+{"id":350414169,"user_id":11507,"branch":"master","category":"coding","dependencies":[],"editor":"","entity":"Unsaved Scene","language":"unity","machine":null,"operating_system":"","project":"Dino Destroyer","type":"file","user_agent":"unity-wakatime","line_additions":null,"line_deletions":null,"lineno":null,"lines":null,"cursorpos":null,"project_root_count":null,"time":1759130880.0,"is_write":false,"created_at":"2025-09-29T07:27:03.693Z","updated_at":"2025-09-29T07:27:03.697Z","fields_hash":"6a611bee1f1ee673f8f03b78ccd5bd22","source_type":"direct_entry","ip_address":"81.97.26.125","ysws_program":"nothing","deleted_at":null,"raw_data":{"time":1759130880.0,"type":"file","lines":null,"branch":"master","editor":"","entity":"Unsaved Scene","lineno":null,"machine":null,"project":"Dino Destroyer","user_id":11507,"category":"coding","is_write":false,"language":"unity","cursorpos":null,"user_agent":"unity-wakatime","dependencies":[],"line_additions":null,"line_deletions":null,"operating_system":"","project_root_count":null},"raw_heartbeat_upload_id":50160096}
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:157)
+UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs:24)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 157)
+
+<WakaTime> Sent heartbeat!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:173)
+UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs:24)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 173)
+
+Unloading 6615 unused Assets / (4.3 MB). Loaded Objects now: 7385.
+Memory consumption went from 145.7 MB to 141.4 MB.
+Total: 22.997550 ms (FindLiveObjects: 1.087261 ms CreateObjectMapping: 1.435610 ms MarkObjects: 15.763332 ms  DeleteObjects: 4.709904 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  8.804 seconds
+Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+<WakaTime> Initializing...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:Initialize () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:60)
+WakaTime.Plugin:.cctor () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 60)
+
+<WakaTime> Sending heartbeat...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:SendHeartbeat (bool) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:128)
+WakaTime.Plugin:Initialize () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:62)
+WakaTime.Plugin:.cctor () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 128)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.247 seconds
+Domain Reload Profiling: 11081ms
+	BeginReloadAssembly (2944ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (50ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (187ms)
+	RebuildCommonClasses (105ms)
+	RebuildNativeTypeToScriptingClass (50ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (5662ms)
+		LoadAssemblies (7406ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (791ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (723ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (2248ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1595ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (286ms)
+			ProcessInitializeOnLoadAttributes (1122ms)
+			ProcessInitializeOnLoadMethodAttributes (165ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (47ms)
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+<WakaTime> Got response
+{"id":350415831,"user_id":11507,"branch":"master","category":"coding","dependencies":[],"editor":"","entity":"Unsaved Scene","language":"unity","machine":null,"operating_system":"","project":"Dino Destroyer","type":"file","user_agent":"unity-wakatime","line_additions":null,"line_deletions":null,"lineno":null,"lines":null,"cursorpos":null,"project_root_count":null,"time":1759131008.0,"is_write":false,"created_at":"2025-09-29T07:29:56.142Z","updated_at":"2025-09-29T07:29:56.149Z","fields_hash":"efe10d2ac29ca90cd81bb088d11bd922","source_type":"direct_entry","ip_address":"81.97.26.125","ysws_program":"nothing","deleted_at":null,"raw_data":{"user_id":11507,"branch":"master","category":"coding","dependencies":[],"editor":"","entity":"Unsaved Scene","language":"unity","machine":null,"operating_system":"","project":"Dino Destroyer","type":"file","user_agent":"unity-wakatime","line_additions":null,"line_deletions":null,"lineno":null,"lines":null,"cursorpos":null,"project_root_count":null,"time":1759131008.0,"is_write":false},"raw_heartbeat_upload_id":50160667}
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:157)
+UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs:24)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 157)
+
+<WakaTime> Sent heartbeat!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:173)
+UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs:24)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 173)
+
+Unloading 6615 unused Assets / (2.7 MB). Loaded Objects now: 7387.
+Memory consumption went from 145.7 MB to 143.0 MB.
+Total: 19.961857 ms (FindLiveObjects: 1.696758 ms CreateObjectMapping: 1.274556 ms MarkObjects: 13.538721 ms  DeleteObjects: 3.450505 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 10.308 seconds
+Refreshing native plugins compatible for Editor in 170.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+<WakaTime> Initializing...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:Initialize () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:60)
+WakaTime.Plugin:.cctor () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 60)
+
+<WakaTime> Sending heartbeat...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:SendHeartbeat (bool) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:128)
+WakaTime.Plugin:Initialize () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:62)
+WakaTime.Plugin:.cctor () (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 128)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.079 seconds
+Domain Reload Profiling: 12402ms
+	BeginReloadAssembly (3670ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (43ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (185ms)
+	RebuildCommonClasses (217ms)
+	RebuildNativeTypeToScriptingClass (90ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (6241ms)
+		LoadAssemblies (9010ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (577ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (519ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (2079ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1569ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (446ms)
+			ProcessInitializeOnLoadAttributes (958ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+<WakaTime> Got response
+{"id":350415831,"user_id":11507,"branch":"master","category":"coding","dependencies":[],"editor":"","entity":"Unsaved Scene","language":"unity","machine":null,"operating_system":"","project":"Dino Destroyer","type":"file","user_agent":"unity-wakatime","line_additions":null,"line_deletions":null,"lineno":null,"lines":null,"cursorpos":null,"project_root_count":null,"time":1759131008.0,"is_write":false,"created_at":"2025-09-29T07:29:56.142Z","updated_at":"2025-09-29T07:29:56.149Z","fields_hash":"efe10d2ac29ca90cd81bb088d11bd922","source_type":"direct_entry","ip_address":"81.97.26.125","ysws_program":"nothing","deleted_at":null,"raw_data":{"time":1759131008.0,"type":"file","lines":null,"branch":"master","editor":"","entity":"Unsaved Scene","lineno":null,"machine":null,"project":"Dino Destroyer","user_id":11507,"category":"coding","is_write":false,"language":"unity","cursorpos":null,"user_agent":"unity-wakatime","dependencies":[],"line_additions":null,"line_deletions":null,"operating_system":"","project_root_count":null},"raw_heartbeat_upload_id":50160667}
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:157)
+UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs:24)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 157)
+
+<WakaTime> Sent heartbeat!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs:173)
+UnityEngine.AsyncOperation:InvokeCompletionEvent () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/AsyncOperation.cs:24)
+
+(Filename: ./Library/PackageCache/com.hestia.hackatime@64a97514e938/Editor/Plugin.cs Line: 173)
+
+Unloading 6615 unused Assets / (5.1 MB). Loaded Objects now: 7389.
+Memory consumption went from 145.7 MB to 140.6 MB.
+Total: 20.049005 ms (FindLiveObjects: 1.214254 ms CreateObjectMapping: 1.717040 ms MarkObjects: 12.933688 ms  DeleteObjects: 4.182770 ms)
+
+Prepare: number of updated asset objects reloaded= 0
